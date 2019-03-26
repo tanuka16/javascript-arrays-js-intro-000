@@ -39,7 +39,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 function removeElementFromBeginningOfArray(array){
   //return the entire array in the same line, and it should not mutate the original array.
-  array.slice(1);
+  array.slice(0);
   return array;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
